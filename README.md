@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+  Express is a popular library that helps us create servers on nodejs. It has many parts, but it has a request, which is sent by the client, and a response, which is sent by the express server based on request parameters
+
 - [ ] Describe Middleware?
+
+  A middleware is a function that runs between other functions. In the case of express, we have built-in and third-party, as well as we can create our own cutom middleware.
 
 - [ ] Describe a Resource?
 
+  A resource is any type of data sent back as response from the server. You can access a resource by targetting their corresponding endpoint.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+  It could return a number of indications to let the client know the request was successful. Some of which may include status codes, response messages or even the requested resource.
+
 - [ ] How can we partition our application into sub-applications?
+
+  We can do that using express router. It helps us compartmentalize and organize our app.
 
 ## Project Setup
 
@@ -44,12 +54,12 @@ Follow these steps to set up and work on your project:
 - [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request.**
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request.**
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [ ] PM then will count the HW as done by merging the branch back into master.
 
 ## Database Persistence Helpers
 
